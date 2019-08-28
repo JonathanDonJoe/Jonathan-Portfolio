@@ -1,3 +1,32 @@
 body {
-    background-color: black;
+    background-color: aliceblue;
+}
+
+nav{
+    position: fixed;
+    top:calc(50% - 75px);
+    display:flex;
+    flex-direction: column;
+    background-color:gray;
+    /* justify-content:space-between; */
+    align-items: center;
+    width:150px;
+    height:150px;
+}
+ul{
+    display:flex;
+    flex-direction: column;
+    list-style:none;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    padding: 0;
+    margin:0;
+    height:100%;
+}
+li{
+    padding:5px;
+}
+nav a{
+    color:white;
+    text-decoration: none;
 }
