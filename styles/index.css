@@ -1,5 +1,6 @@
 :root {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html{
@@ -18,6 +19,7 @@ body {
     height:370vh;
     /* background-image: url('http://www.handandbeak.com/wp-content/uploads/ju/jungle-forest-background-vector.jpg'); */
     /* background-size: auto; */
+
 }
 
 /* .page-top {
