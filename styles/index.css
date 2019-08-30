@@ -152,3 +152,53 @@ nav a{
         width:50%;
     }   
 }
+
+
+.projects-container {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
+.project-container {
+    position: relative;
+    /* display:flex; */
+    width: 300px;
+    /* background-color: lightgray; */
+    align-self: center;
+}
+  
+.project-image {
+    opacity: 1;
+    display: block;
+    max-width: 300px;
+    /* height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.project-middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.project-container:hover .project-image {
+    opacity: 0.3;
+}
+
+.project-container:hover .project-middle {
+    opacity: 1;
+}
+
+.project-text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
