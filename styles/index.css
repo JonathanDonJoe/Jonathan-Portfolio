@@ -15,8 +15,8 @@ body {
     display:flex;
     flex-direction: column;
     margin:0;
-    height:200vh;
-    background-image: url('http://www.handandbeak.com/wp-content/uploads/ju/jungle-forest-background-vector.jpg');
+    height:370vh;
+    /* background-image: url('http://www.handandbeak.com/wp-content/uploads/ju/jungle-forest-background-vector.jpg'); */
     /* background-size: auto; */
 }
 
@@ -87,8 +87,61 @@ nav a{
     z-index: 0;
 }
 
+.page-container {
+    height:90vh;
+}
+
+.page2 {
+    background-color:salmon;
+}
+.page3 {
+    background-color:lavender;
+}
+.page4 {
+    background-color:lightgray;
+}
+
+.pagejumper {
+    /* position: absolute; */
+    height:10vh;
+    bottom:0;
+}
+
 /* @media only screen and (max-width: 1136px) {
     body {
       background-image: none;
     }
   } */
+
+
+  /* -------------------------------- 
+ File#: _1_hero
+ Title: Hero
+ Descr: A full-width callout section
+ -------------------------------- */
+.title-container {
+    display: flex;
+    align-items: center;
+    background-color: green;
+    min-height: 380px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 30px;
+    height:90vh;
+  }
+  .title-label {
+    color: gray;
+    font-size: 20px;
+  }
+
+  
+  .text-component h1 {
+      font-size: 40px;
+    }
+    
+@media only screen and (min-width: 376px) {
+    .title-container .container {
+        width:50%;
+    }   
+}
