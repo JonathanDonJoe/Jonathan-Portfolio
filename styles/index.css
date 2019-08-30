@@ -11,11 +11,13 @@ html{
 }
 
 body {
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     display:flex;
     flex-direction: column;
     margin:0;
     height:200vh;
+    background-image: url('http://www.handandbeak.com/wp-content/uploads/ju/jungle-forest-background-vector.jpg');
+    /* background-size: auto; */
 }
 
 .placeholder {
@@ -64,7 +66,7 @@ nav a{
 
 .main-section {
     display:flex;
-    height:30vh;
+    height:70vh;
     width: 100vw;
     justify-content: space-between;
 }
@@ -73,6 +75,7 @@ nav a{
 }
 #box-2 {
     background-color: greenyellow;
+    height:50%;
 }
 .mid-box {
     position: absolute;
@@ -83,3 +86,9 @@ nav a{
     background-color: lightgray;
     z-index: 0;
 }
+
+/* @media only screen and (max-width: 1136px) {
+    body {
+      background-image: none;
+    }
+  } */
