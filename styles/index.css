@@ -131,6 +131,7 @@ nav a{
 .title-container {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     background-color: green;
     min-height: 380px;
     background-size: cover;
@@ -139,6 +140,13 @@ nav a{
     padding: 30px;
     height:100%;
   }
+
+  .profile-avatar {
+      border-radius: 50%;
+      border: 30px aliceblue solid;
+      width:400px;
+  }
+
   .title-label {
     color: gray;
     font-size: 20px;
