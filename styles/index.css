@@ -5,6 +5,7 @@
 
 html{
     box-sizing: border-box;
+    background-color: black;
 }
 
 *,*::before,*::after{
@@ -16,7 +17,7 @@ body {
     display:flex;
     flex-direction: column;
     margin:0;
-    height:370vh;
+    /* height:370vh; */
     /* background-image: url('http://www.handandbeak.com/wp-content/uploads/ju/jungle-forest-background-vector.jpg'); */
     /* background-size: auto; */
 
@@ -97,6 +98,7 @@ nav a{
     background-color:salmon;
 }
 .page3 {
+    height:190vh;
     background-color:lavender;
 }
 .page4 {
@@ -146,16 +148,11 @@ nav a{
   .text-component h1 {
       font-size: 40px;
     }
-    
-@media only screen and (min-width: 376px) {
-    .title-container .container {
-        width:50%;
-    }   
-}
 
 .projects-container {
     display:flex;
     justify-content: space-evenly;
+    flex-direction: column;
 }
 
 .project-container {
@@ -220,4 +217,25 @@ nav a{
     color: white;
     font-size: 16px;
     padding: 16px 32px;
+} */
+
+
+
+
+@media only screen and (min-width: 376px) {
+    .title-container .container {
+        width:50%;
+    }   
+    .page3 {
+        height:90vh;
+    }
+    .projects-container {
+        flex-direction: row;
+    }
+}
+
+/* @media only screen and (min-height: 813px) {
+    .page3 {
+        height:90vh;
+    }
 } */
