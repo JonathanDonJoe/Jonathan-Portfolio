@@ -132,7 +132,7 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: green;
+    /* background-color: green; */
     min-height: 380px;
     background-size: cover;
     background-repeat: no-repeat;
