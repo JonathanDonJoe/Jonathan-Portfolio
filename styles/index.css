@@ -98,7 +98,7 @@ nav a{
     background-color:salmon;
 }
 .page3 {
-    height:190vh;
+    height:120vh;
     background-color:lavender;
 }
 .page4 {
@@ -130,6 +130,7 @@ nav a{
  -------------------------------- */
 .title-container {
     display: flex;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-evenly;
     /* background-color: green; */
@@ -143,8 +144,9 @@ nav a{
 
 .profile-avatar {
     border-radius: 50%;
-    border: 30px aliceblue solid;
-    width:400px;
+    border: 20px aliceblue solid;
+    /* width:300px; */
+    /* height:300px; */
 }
 
 .title-label {
@@ -157,18 +159,24 @@ font-size: 20px;
 }
 
 .text-component h1 {
-    font-size: 40px;
+    font-size: 30px;
+}
+.text-component p {
+    font-size: 15px;
 }
 
 .projects-container {
     display:flex;
     justify-content: space-evenly;
+    align-items: center;
     flex-direction: column;
 }
 
 .project-container {
     display:flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 300px;
     height:300px;
     /* overflow:hidden; */
@@ -235,6 +243,10 @@ font-size: 20px;
     opacity: 1;
 }
 
+.icons-js {
+    color:green;
+}
+
 
 /*
 .project-text {
@@ -248,6 +260,15 @@ font-size: 20px;
 
 
 @media only screen and (min-width: 376px) {
+    .title-container {
+        flex-direction: row;
+    }
+    .profile-avatar {
+        border-radius: 50%;
+        border: 30px aliceblue solid;
+        width: 400px;
+        /* height: 400px; */
+    }
     .title-container .container {
         width:50%;
     }   
@@ -256,6 +277,12 @@ font-size: 20px;
     }
     .projects-container {
         flex-direction: row;
+    }
+    .text-component h1 {
+        font-size: 60px;
+    }
+    .text-component p {
+        font-size: 30px;
     }
 }
 
