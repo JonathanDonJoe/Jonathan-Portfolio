@@ -278,6 +278,15 @@ font-size: 20px;
     color:green;
 }
 
+.contact-icon {
+    padding: 40px;
+}
+
+.contact-container a{
+    color:black;
+    text-decoration: none;
+}
+
 
 /*
 .project-text {
