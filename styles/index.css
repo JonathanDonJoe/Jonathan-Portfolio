@@ -40,6 +40,7 @@ nav{
     height:10vh;
     padding:10px 20px;
     z-index: 5;
+    flex-direction: column;
 }
 
 ul{
@@ -52,9 +53,6 @@ ul{
     padding: 0;
     margin:0;
     height:100%;
-}
-li{
-    padding:25px;
 }
 nav a{
     color:white;
@@ -105,6 +103,7 @@ nav a{
 .page4 {
     background-color:lightgray;
     display:flex;
+    height:150vh;
 }
 
 .pagejumper {
@@ -165,6 +164,10 @@ font-size: 20px;
 }
 .text-component p {
     font-size: 15px;
+}
+
+.page3 .text-component {
+    text-align: center;
 }
 
 .projects-container {
@@ -261,12 +264,16 @@ font-size: 20px;
     background-color: antiquewhite;
     display:inline-block;
     padding: 30px;
+    text-align: center;
     /* flex-direction: column; */
     /* overflow: wrap; */
 }
 
 .contact-container {
     background-color: beige;
+    display:inline-block;
+    padding: 30px;
+    text-align: center;
 }
 
 .fab, .fas {
@@ -278,9 +285,9 @@ font-size: 20px;
     color:green;
 }
 
-.contact-icon {
-    padding: 40px;
-}
+/* .contact-icon {
+    padding: 20px;
+} */
 
 .contact-container a{
     color:black;
@@ -299,7 +306,10 @@ font-size: 20px;
 
 @media only screen and (min-width: 321px) {
     .page3 {
-        height:120vh;
+        height: 120vh;
+    }
+    .page4 {
+        height: 90vh;
     }
 }
 
@@ -335,7 +345,12 @@ font-size: 20px;
         height: 100%;
         width: 50%;
     }
-
+    nav {
+        flex-direction: row;
+    }
+    li {
+        padding:25px;
+    }
 
 }
 
