@@ -6,7 +6,7 @@ console.log(skillIcons);
 
 function resizeSkillIcons() { 
     // console.log('hi')
-    if (window.innerWidth > 703) {
+    if (window.innerWidth > 650) {
         skillIcons.forEach( (element) => {
             // element.classList.remove('fa-3x');
             element.classList.add('skill-icon-small');
