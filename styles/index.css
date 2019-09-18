@@ -303,15 +303,24 @@ font-size: 20px;
     padding: 16px 32px;
 } */
 
+.skill-icon {
+    font-size: 60px;
+    padding: 20px;
+    color: green;
+}
 
-@media only screen and (min-width: 321px) {
+.skill-icon-small {
+    font-size: 100px;
+}
+
+/* @media only screen and (min-width: 321px) {
     .page3 {
         height: 120vh;
     }
     .page4 {
         height: 90vh;
     }
-}
+} */
 
 @media only screen and (min-width: 376px) {
     .title-container {
@@ -327,6 +336,9 @@ font-size: 20px;
         width:50%;
     }   
     .page3 {
+        height:90vh;
+    }
+    .page4 {
         height:90vh;
     }
     .projects-container {
@@ -359,3 +371,4 @@ font-size: 20px;
         height:90vh;
     }
 } */
+

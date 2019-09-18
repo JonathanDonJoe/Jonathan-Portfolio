@@ -6,16 +6,16 @@ console.log(skillIcons);
 
 function resizeSkillIcons() { 
     // console.log('hi')
-    if (window.innerWidth > 375) {
+    if (window.innerWidth > 703) {
         skillIcons.forEach( (element) => {
-            element.classList.remove('fa-3x');
-            element.classList.add('fa-7x');
+            // element.classList.remove('fa-3x');
+            element.classList.add('skill-icon-small');
             console.log('big window')
         })
     } else {
         skillIcons.forEach( (element) => {
-            element.classList.remove('fa-7x');
-            element.classList.add('fa-3x');
+            element.classList.remove('skill-icon-small');
+            // element.classList.add('fa-3x');
             console.log('small window')
         })
     }
