@@ -169,6 +169,9 @@ font-size: 20px;
 .page3 .text-component {
     text-align: center;
 }
+.page4 .text-component {
+    text-align: center;
+}
 
 .projects-container {
     display:flex;
@@ -275,12 +278,22 @@ font-size: 20px;
 
 .contact-container {
     background-color: beige;
-    display:inline-block;
+    display: flex;
+    flex-direction: column;
+    /* display:inline-block; */
     padding: 30px;
     text-align: center;
+    align-items: center;
 }
 
 .skill-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-card-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -291,7 +304,11 @@ font-size: 20px;
     height: 90px;
     margin: 10px;
 }
-
+.contact-card {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
 .fab, .fas {
     /* height:96px; */
     padding:20px;
@@ -322,7 +339,16 @@ font-size: 20px;
 .skill-icon {
     font-size: 60px;
     /* padding: 20px; */
-    color: green;
+    color: rgb(0,91, 255); 
+}
+
+.skill-icon:hover {
+    filter: invert(100%);
+}
+.contact-icon:hover {
+    /* filter: invert(100%); */
+    background-color: black;
+    color: beige;
 }
 
 .skill-icon-small {
@@ -355,7 +381,7 @@ font-size: 20px;
         height:90vh;
     }
     .page4 {
-        height:95vh;
+        height:120vh;
     }
     .projects-container {
         flex-direction: row;
@@ -380,6 +406,12 @@ font-size: 20px;
         padding:25px;
     }
 
+}
+
+@media only screen and (min-width: 795px) {
+    .page4 {
+        height:90vh;
+    }
 }
 
 /* @media only screen and (min-width: 1024px) { 
