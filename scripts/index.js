@@ -1,6 +1,6 @@
 
 let skillIcons = document.querySelectorAll('.skill-icon');
-console.log(skillIcons);
+// console.log(skillIcons);
 
 // window.onresize = function() {
 
