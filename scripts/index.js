@@ -10,13 +10,13 @@ function resizeSkillIcons() {
         skillIcons.forEach( (element) => {
             // element.classList.remove('fa-3x');
             element.classList.add('skill-icon-small');
-            console.log('big window')
+            // console.log('big window')
         })
     } else {
         skillIcons.forEach( (element) => {
             element.classList.remove('skill-icon-small');
             // element.classList.add('fa-3x');
-            console.log('small window')
+            // console.log('small window')
         })
     }
 }

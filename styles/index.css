@@ -43,6 +43,10 @@ nav{
     flex-direction: column;
 }
 
+.nav-title {
+    font-size: 30px;
+}
+
 ul{
     display:flex;
     /* flex-direction: column; */
@@ -72,6 +76,11 @@ nav a{
     width: 100vw;
     justify-content: space-between;
 }
+
+.title-content .text-component {
+    text-align: center;
+}
+
 /* #box-1 {
     background-color: aqua
 } */
@@ -155,8 +164,19 @@ color: gray;
 font-size: 20px;
 }
 
-.text-component {
+/* .text-component {
     padding:0 80px;
+} */
+
+#feature-name {
+    font-size: 60px;
+    margin: 20px;
+}
+#feature-text {
+    font-size: 30px;
+}
+#feature-name {
+    font-size: 60px;
 }
 
 .text-component h1 {
@@ -305,9 +325,14 @@ font-size: 20px;
     margin: 10px;
 }
 .contact-card {
-    width: 120px;
-    height: 120px;
-    margin: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+.contact-card p {
+    /* padding:0; */
+    line-height: 0;
+    text-align: center;
 }
 .fab, .fas {
     /* height:96px; */
@@ -318,9 +343,9 @@ font-size: 20px;
     color:green;
 }
 
-/* .contact-icon {
-    padding: 20px;
-} */
+.contact-icon {
+    padding-top: 20px;
+}
 
 .contact-container a{
     color:black;
