@@ -37,7 +37,7 @@ nav{
     background-color:gray;
     justify-content:space-between;
     width:100%;
-    height:10vh;
+    height:10%;
     padding:10px 20px;
     z-index: 5;
     flex-direction: column;
@@ -99,20 +99,26 @@ nav a{
 }
 
 .page-container {
-    height:90vh;
+    /* min-height: 100vh; */
+    height:100%;
+}
+
+.page1 {
+    min-height: 100vh;
 }
 
 .page2 {
     background-color:salmon;
 }
 .page3 {
-    height:130vh;
+    /* height:130vh; */
+    /* height: 100%; */
     background-color:lavender;
 }
 .page4 {
     background-color:lightgray;
     display:flex;
-    height:120vh;
+    /* height:100%; */
 }
 
 .pagejumper {
@@ -144,7 +150,7 @@ nav a{
     align-items: center;
     justify-content: space-evenly;
     /* background-color: green; */
-    min-height: 380px;
+    min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -302,8 +308,9 @@ font-size: 20px;
 }
 
 .half-page {
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
+    /* min-height: 85vh; */
 }
 
 .skills-container {
@@ -344,6 +351,9 @@ font-size: 20px;
     width: 90px;
     height: 90px;
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .contact-card {
     width: 150px;
@@ -391,6 +401,15 @@ font-size: 20px;
 .skill-icon:hover {
     filter: invert(100%);
 }
+.skill-icon2 {
+    font-size: 20px;
+    /* padding: 20px; */
+    color: rgb(0,91, 255); 
+}
+
+.skill-icon2:hover {
+    filter: invert(100%);
+}
 .contact-icon:hover {
     /* filter: invert(100%); */
     background-color: black;
@@ -399,6 +418,9 @@ font-size: 20px;
 
 .skill-icon-small {
     font-size: 90px;
+}
+.skill-icon2-small {
+    font-size: 30px;
 }
 
 /* @media only screen and (min-width: 321px) {
@@ -427,7 +449,7 @@ font-size: 20px;
         height:90vh;
     }
     .page4 {
-        height:120vh;
+        /* height:120vh; */
     }
     .projects-container {
         flex-direction: row;
@@ -442,7 +464,7 @@ font-size: 20px;
         flex-direction: row;
     }
     .half-page {
-        height: 100%;
+        /* height: 100%; */
         width: 50%;
     }
     nav {
@@ -455,9 +477,9 @@ font-size: 20px;
 }
 
 @media only screen and (min-width: 795px) {
-    .page4 {
+    /* .page4 {
         height:90vh;
-    }
+    } */
 }
 
 /* @media only screen and (min-width: 1024px) { 
