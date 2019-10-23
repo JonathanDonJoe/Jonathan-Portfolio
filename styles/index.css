@@ -121,6 +121,8 @@ nav a{
     /* height:130vh; */
     /* height: 100%; */
     background-color:lavender;
+    display: flex;
+    flex-direction: column;
 }
 .page4 {
     background-color:lightgray;
