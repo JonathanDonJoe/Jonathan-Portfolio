@@ -329,7 +329,9 @@ font-size: 20px;
     opacity: 1;
 }
 
-
+.projects-header {
+    margin-top: 0px;
+}
 
 .page4-container {
     width: 100%;
