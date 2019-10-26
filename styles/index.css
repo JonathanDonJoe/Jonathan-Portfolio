@@ -444,6 +444,11 @@ font-size: 20px;
     /* padding: 20px; */
     color: rgb(0,91, 255); 
 }
+.skill-icon2-alt {
+    font-size: 16px;
+    /* padding: 20px; */
+    color: rgb(0,91, 255); 
+}
 
 .skill-icon2:hover {
     filter: invert(100%);
