@@ -32,5 +32,29 @@ function resizeSkillIcons() {
     }
 }
 
-window.addEventListener("resize", resizeSkillIcons);
-window.onload = resizeSkillIcons;
+
+function main() {
+    resizeSkillIcons()
+    window.addEventListener("resize", resizeSkillIcons);
+    document.querySelector('.jump1').addEventListener('click', (e) => {
+        e.preventDefault()
+        window.scrollTo(0,0)
+    })
+    document.querySelector('.jump3').addEventListener('click', (e) => {
+        e.preventDefault()
+        document.querySelector('#page3-jumper').scrollIntoView(true);
+    })
+    document.querySelector('.jump4').addEventListener('click', (e) => {
+        e.preventDefault()
+        document.querySelector('#page4-jumper').scrollIntoView(true);
+    })
+    document.querySelector('.jump5').addEventListener('click', (e) => {
+        e.preventDefault()
+        document.querySelector('#page5-jumper').scrollIntoView(true);
+    })
+    
+}
+
+window.onload = main;
+
+

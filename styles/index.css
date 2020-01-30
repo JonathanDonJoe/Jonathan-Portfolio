@@ -48,6 +48,10 @@ nav{
     font-size: 30px;
 }
 
+.jump1:hover, .jump3:hover, .jump4:hover, .jump5:hover {
+    cursor: pointer;
+}
+
 ul{
     display: flex;
     /* flex-direction: column; */
