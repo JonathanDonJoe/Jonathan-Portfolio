@@ -514,6 +514,7 @@ font-size: 20px;
     } */
     .projects-container {
         flex-direction: row;
+        flex-wrap: wrap;
     }
     .text-component h1 {
         font-size: 60px;
@@ -539,9 +540,9 @@ font-size: 20px;
     }
 }
 
-@media only screen and (min-width: 795px) {
-    /* .page4 {
-        height:90vh;
+@media only screen and (min-width: 1200px) {
+    /* .projects-container {
+        flex-wrap: nowrap;
     } */
 }
 
