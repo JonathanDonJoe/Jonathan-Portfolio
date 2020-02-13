@@ -240,6 +240,8 @@ font-size: 20px;
     width: 300px;
     height: 550px;
     /* overflow:hidden; */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 10px;
 }
 
 .project-image {
@@ -251,7 +253,8 @@ font-size: 20px;
     transition: 0.5s ease;
     /* backface-visibility: hidden; */
 
-    box-shadow: 10px 10px 10px black;
+    /* box-shadow: 10px 10px 10px black; */
+    border: 1px solid rgba(0, 0, 0);
 }
 
 .page2 .project-skills-container {
